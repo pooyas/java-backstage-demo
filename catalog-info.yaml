@@ -5,7 +5,7 @@ metadata:
   description: Testing a Java service
   annotations:
     example.com/service-discovery: artistweb
-    jenkins.io/job-full-name: Java Test
+    jenkins.io/job-full-name: java-test
   tags:
     - java
 spec:
