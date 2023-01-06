@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-backstage-test
+  description: Testing a Java service
+  annotations:
+    example.com/service-discovery: artistweb
+    jenkins.io/job-full-name: Java Test
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: experimental
+  owner: pooyas
